@@ -1,0 +1,120 @@
+body{
+    margin: 0; padding: 0;
+}
+#top_img{
+    width:101%;
+    height: 1009px;
+    position:fixed;
+    overflow: hidden;
+    
+    
+}
+#top_img p{
+    position: absolute;
+    font-size: 35px;
+    background-color: rgba(0,0,0,0);
+    top: 85%;
+    color: #eeeeee00;
+    font-weight:lighter;
+    
+}
+.right a ,.left a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: 38px;
+    background: rgba(0, 0, 0, 0);
+}
+.left{
+    position: absolute;
+    left: 780px;
+    transition: all 2s;
+    }
+.right{
+    position: absolute;
+    right: 780px;
+    transition: all 2s;
+    }
+#top_img ul{
+        position: absolute;
+        left: 43%;
+        top: 88%;
+        background: rgba(0,0,0,0);
+        
+}
+#top_img ul li{
+        float: left;
+        width: 15px;
+        height: 10px;
+        border: solid 1px #eeeeee;
+        margin-left: 20px;
+        list-style-type: none;
+        border-radius: 20px;
+        
+    
+}
+
+.li_bk{
+    background-color: #eeeeee;
+}
+#showdiv{
+    width: 1000%;
+    height: 800px;
+    position: absolute;
+}
+#top_img img{
+    width: 10%;
+    float: left;
+    
+}
+
+
+
+#top_mid{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 430px;
+    margin: 48px 0 0 0;
+    background-image: linear-gradient(135deg,#ff75c38a,hsla(31, 100%, 64%, 0.12),rgba(255, 233, 63, 0.15),rgba(159, 255, 91, 0.15),rgba(112, 226, 255, 0.14),rgba(205, 147, 255, 0.2));
+    animation:  hue 2.5s linear infinite;
+    
+}
+#top_mid span{
+    font-size: 24px;
+    color:rgba(0, 179, 199, 0.9);
+    background: rgba(0,0,0,0);
+    
+}
+#top_mid>a{
+    text-decoration: none;
+    color: rgba(204, 0, 85, 0.83);
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 58px;
+    background: rgba(0,0,0,0);
+}
+
+.ssd {
+    display: inline-block;
+    z-index: 9999;
+    width: 250px;
+    font-size:50px;
+    color: #fff;
+    transition: all 2s;
+   
+}
+
+.left:hover,.right:hover,.ssd:hover {
+    /* 顺 */
+    transform: rotateZ(360deg);
+
+    /* 逆 */
+    /* transform: rotate(-360deg); */
+}
+
+
+
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="
+    background: url('img/top05.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    clear: both;
+  "
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>九九九感冒绫</title>
+    <link rel="stylesheet" href="CSS/all.css" />
+    <link rel="stylesheet" href="CSS/gossip.css"/>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+
+    <script src="Tools/jQuery.js"></script>
+  </head>
+  <body onload="lod()" style="width:100%;padding:0px; margin:0px;">
+    
+    <div id="main" style="width:100%;padding:0px; margin:0px;">
+    <div
+      style="
+        background-image: linear-gradient(135deg, #15233150, #00000040);
+        width: 1920px;
+        height: 1080px;
+        background-attachment: fixed;
+        display: inline-block;
+        position: fixed;
+        z-index: -1;
+      "
+    ></div>
+    <div id="nav">
+      <span id="top_s1">
+        <a id="top_s1_01" href="Index.html" style="color: white"
+          ><h2 class=".flow">闲言碎语</h2>
+          <span> ☫☩☯☤₪</span></a
+        >
+        <a id="top_s1_02" href="Learning log_loading.html" class="top_ssd">
+          学习日志
+        </a>
+        <a id="top_s1_03" href="Resources.html" class="top_ssd"> 资源分享 </a>
+
+        <a id="top_s1_04" href="gossip.html" class="top_ssd"> 杂言碎语 </a>
+        <a id="top_s1_05" href="unfinished_oading.html" class="top_ssd"> 不知道写啥了 XD </a>
+        <a id="top_s1_06" href="Contact me.html" class="top_ssd"> 联系我 </a>
+      </span>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+  
+  <ul class="wrapper" style="  z-index: 9999999;">
+
+  <li>
+    <div class="info-box-red">
+      <h4 class="entypo-lifebuoy">关于我</h4>
+  
+      <div class="info-content">
+        <div class="text">
+          <p>
+            我从小到大对自己的定义一个追求平凡的普通人 不过也有少年的热血
+            <br />
+            值得记录的事情很多<br/>平凡的生活也值得记录 便在这里记录一下我的<sign>所见所闻 所思所想</sign> <br />
+            做个博客是很久以前脑子里突然冒出来的想法 那时候还不知道博客
+            只是单纯的觉得有个<sign>属于我的 我私有的 我自己创造</sign>的 一个可以让全世界都看到的东西
+            这肯定很nb很有意思 于是脑子里一直就带着这个想法了 直到最近我大概是知道怎么做了<br />
+            但是到做到现在这一切还远远不够完善<br />
+             我是个没什么文化的人 写不出什么文章或者通俗易懂的技术分享贴 但是 我也会尽我的努力来慢慢完善这个网站
+             <br/>
+             <sign>我会慢慢的填充它 慢慢的完成我儿童时期的梦想</sign>
+
+          </p>
+        </div>
+        <span class="entypo-plus" id="expand-red" style="font-size: 80px;     margin: -5% -1% 0% 0%;
+        ">▽</span>
+      </div>
+    </div>
+  </li>
+    
+  
+</ul>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <!-- 导入光标特效 -->
+      <link rel="stylesheet" href="Tools/光标.css" />
+      <script src="Tools/光标.js"></script>
+      <script src="JS/all.js"></script>
+      <script>
+    
+        $("#expand-red").on("click", function () {
+          $(this).toggleClass("close-red");
+          $(".text").toggleClass("open-red");
+        });
+    
+      </script>
+      <script>
+      
+ $(document).ready(function(){
+resizeHtml();
+//为了防止用户拖动窗口自适应大小
+$(window).resize(function() {
+resizeHtml();
+});
+});
+function resizeHtml(){
+//main为body下第一层div的id
+$('#main').height($(window).width());
+}
+      </script>
+    </div>
+  </div>
+  </body>
+</html>

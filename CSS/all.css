@@ -1,0 +1,266 @@
+
+* {
+  background-image: linear-gradient(rgb(0, 0, 0)), rgba(255, 255, 0, 0);
+  font-family: '站酷高端黑';
+}
+
+@font-face {
+  /* font-properties */
+  font-family: 站酷高端黑;
+  src:url('Tools/站酷高端黑.ttf');
+
+}
+/* 删除滚动条 */
+::-webkit-scrollbar{
+
+  display:none;
+
+}
+.element { overflow: -moz-scrollbars-none; }
+body{
+  margin: 0; padding: 0;
+}
+#content{width:1000px;height:2000px;overflow:hidden;}
+/* 导航栏 */
+#nav{
+    width:100%;
+  height:80px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#top_s1{
+  width:100.02%;
+  position: fixed;
+  font-size: 20px;
+  top: -10px;
+ padding-left: 3%;
+  letter-spacing: 3px;
+ background-image: linear-gradient(180deg,#090030,#0ed0f734);
+   z-index: 9999;
+  width: 100%;
+  height: 80px;
+  backdrop-filter: blur(8px);
+
+
+}
+
+#top_s1 h2{
+  background-color: rgba(0,0,0,0);
+  display: inline-block;
+  margin : -18px   0px   0px  30px;
+  width: 86%;
+
+}
+#top_s1>a{
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.66);
+  margin : 11px  0px   0px  60px;
+   display: inline-block;
+ width: 200px;
+ height: 48px;
+ padding-top: 18px; ;
+ text-align: center;
+
+}
+#top_s1 a:not(:first-child){
+  color: rgba(190, 253, 227, 0.68);
+  float:inline-start;
+  position:relative;
+
+}
+#top_s1 a:first-child{
+  font-size: 50px; 
+  width: 280px;
+  margin: -15px 0 0 0;
+  text-align:center;
+}
+#top_s1 a:first-child span{
+
+  margin: -66px  0 0 50px;
+  color: rgba(255, 255, 255, 0.58);
+  font-weight: 900;
+  font-size: 56px;
+}
+#top_s1 h2:first-child{
+  color: rgba(0, 206, 203, 0.41);
+  font-style: italic;
+  font-weight: bold; 
+  font-size: 36px; 
+  margin-top: 24px;
+
+
+}
+#top_s1 h2:hover{
+  color: rgb(255, 230, 0);
+  background: linear-gradient(to left, rgb(255, 238, 0), rgb(233, 37, 216), rgb(5, 218, 255), rgb(0, 255, 179), rgb(0, 255, 255), rgb(255, 174, 0),  rgb(162, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation:  hue .68s linear infinite;
+}
+#top_s1_02:hover{
+  background-image: linear-gradient(rgba(27, 255, 84, 0.5),rgba(159, 255, 91, 0.3),rgba(112, 226, 255, 0.2),rgba(205, 147, 255, 0.1));
+
+animation:  hue 0.5s linear infinite;
+
+}
+#top_s1_03:hover{
+  background-image: linear-gradient(rgba(27, 255, 84, 0.5),rgba(159, 255, 91, 0.3),rgba(112, 226, 255, 0.2),rgba(205, 147, 255, 0.1));
+
+  animation:  hue 0.5s linear infinite;
+
+}
+#top_s1_04:hover{
+  background-image: linear-gradient(rgba(27, 255, 84, 0.5),rgba(159, 255, 91, 0.3),rgba(112, 226, 255, 0.2),rgba(205, 147, 255, 0.1));
+
+  animation:  hue 0.5s linear infinite;
+
+
+}
+#top_s1_05:hover{
+  background-image: linear-gradient(rgba(27, 255, 84, 0.5),rgba(159, 255, 91, 0.3),rgba(112, 226, 255, 0.2),rgba(205, 147, 255, 0.1));
+  animation:  hue 1.5s linear infinite;
+
+
+}
+#top_s1_06:hover{
+  background-image: linear-gradient(135deg,#ffa8a860,#fcff0060);
+  animation:  hue 1.5s linear infinite;
+
+
+}
+#top_s1 h2{
+  background-color: rgba(0,0,0,0);
+  display: inline-block;
+  margin : -18px   0px   0px  30px;
+  width: 250px;
+
+}
+#top_s1>a{
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.66);
+  margin : 11px  0px   0px  60px;
+   display: inline-block;
+  float: left;
+ left:10%;
+ width: 13%;
+ height: 66%;
+ padding-left: 10px;
+ padding-top: 18px; ;
+ text-align: center;
+ 
+}
+#top_s1 a:not(:first-child){
+  color: rgba(190, 253, 227, 0.68);
+  float:inline-start;
+  margin-left: 10px;
+  position:relative;
+
+}
+#top_s1 a:first-child{
+  font-size: 50px; 
+  width: 280px;
+  margin: -15px 0 0 0;
+  text-align:center;
+}
+#top_s1 a:first-child span{
+  float: left;
+  right: 20px;
+  margin: -66px  0 0 50px;
+  color: rgba(255, 255, 255, 0.58);
+  font-weight: 900;
+  font-size: 56px;
+}
+#top_s1 h2:first-child{
+  color: rgba(0, 206, 203, 0.41);
+  font-style: italic;
+  font-weight: bold; 
+  font-size: 36px; 
+  margin-top: 24px;
+
+
+}
+#top_s1 h2:hover{
+  color: rgb(255, 230, 0);
+  background: linear-gradient(to left, rgb(255, 238, 0), rgb(233, 37, 216), rgb(5, 218, 255), rgb(0, 255, 179), rgb(0, 255, 255), rgb(255, 174, 0),  rgb(162, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation:  hue .68s linear infinite;
+}
+#top_s1_02:hover{
+  background-image: linear-gradient(rgba(27, 255, 84, 0.5),rgba(159, 255, 91, 0.3),rgba(112, 226, 255, 0.2),rgba(205, 147, 255, 0.1));
+
+animation:  hue 0.5s linear infinite;
+
+}
+#top_s1_03:hover{
+  background-image: linear-gradient(rgba(27, 255, 84, 0.5),rgba(159, 255, 91, 0.3),rgba(112, 226, 255, 0.2),rgba(205, 147, 255, 0.1));
+
+  animation:  hue 0.5s linear infinite;
+
+}
+#top_s1_04:hover{
+  background-image: linear-gradient(rgba(27, 255, 84, 0.5),rgba(159, 255, 91, 0.3),rgba(112, 226, 255, 0.2),rgba(205, 147, 255, 0.1));
+
+  animation:  hue 0.5s linear infinite;
+
+
+}
+#top_s1_05:hover{
+  background-image: linear-gradient(rgba(27, 255, 84, 0.5),rgba(159, 255, 91, 0.3),rgba(112, 226, 255, 0.2),rgba(205, 147, 255, 0.1));
+  animation:  hue 1.5s linear infinite;
+
+
+}
+@keyframes hue {
+  0% {
+      filter: hue-rotate(0deg);
+  }
+  100% {
+      filter: hue-rotate(360deg);
+  }
+}
+.top_ssd:hover::before {
+  border: 4px solid #00ffea66;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  animation: top_ssd 0.5s infinite linear;
+}
+@keyframes top_ssd {
+  0%,
+  100% {
+    clip: rect(0 100px 10px 0);
+  }
+  25% {
+    clip: rect(0 1500px 10px 16px);
+  }
+  50% {
+    clip: rect(114px 1500px 160px 0);
+  }
+  75% {
+    clip: rect(0 2px 116px 0);
+  }
+}
+#Main_body_BG h1 {
+text-align: center;
+font-size: 4em;
+}
+#Main_body_BG p {
+  text-indent: 2em;
+  font-size: 1.6em;
+}
+#Main_body_BG h2 {
+  text-align: center;
+  font-size: 2.5em;
+
+}
+
+#Main_body_BG .img{
+  width: 100%;
+  margin:0 auto;
+}

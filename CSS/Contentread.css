@@ -1,0 +1,182 @@
+      .Main_body   .markdown-here-wrapper {
+        font-size: 26px;
+        line-height: 1.8em;
+        letter-spacing: 0.1em;
+      }
+
+
+      .Main_body  pre, .Main_body  code {
+        font-size: 14px;
+        font-family: Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
+        margin: auto 5px;
+      }
+
+      .Main_body  code {
+        white-space: pre-wrap;
+        border-radius: 2px;
+        display: inline;
+      }
+
+      .Main_body  pre {
+        font-size: 15px;
+        line-height: 1.4em;
+        display: block !important;
+      }
+
+      .Main_body  pre  .Main_body  code {
+        white-space: pre;
+        overflow: auto;
+        border-radius: 3px;
+        padding: 1px 1px;
+        display: block !important;
+      }
+
+      .Main_body  s .Main_body  trong,  .Main_body  b{
+        color: #BF360C;
+      }
+
+      .Main_body  em,  .Main_body  i {
+        color: #009688;
+      }
+
+      .Main_body  hr {
+        border: 1px solid #BF360C;
+        margin: 1.5em auto;
+      }
+
+      .Main_body  p {
+        margin: 1.5em 5px !important;
+      }
+
+      .Main_body  table,  .Main_body  pre,  .Main_body  .Main_body ,  .Main_body  blockquote,  .Main_body  q,  .Main_body  ul,  .Main_body  ul {
+        margin: 10px 5px;
+      }
+
+       .Main_body  ul,   .Main_body  ul {
+        padding-left: 15px;
+      }
+
+      .Main_body  li {
+        margin: 10px;
+      }
+
+      .Main_body  li  .Main_body  p {
+        margin: 10px 0 !important;
+      }
+
+      .Main_body  ul .Main_body  ul, .Main_body  ul .Main_body  ul, .Main_body  ul .Main_body  ul, .Main_body  ul .Main_body  ul {
+        margin: 0;
+        padding-left: 10px;
+      }
+
+      .Main_body  ul {
+        list-style-type: circle;
+      }
+
+      .Main_body  {
+        padding: 0;
+      }
+
+      .Main_body  dt {
+        font-size: 1em;
+        font-weight: bold;
+        font-style: italic;
+      }
+
+      .Main_body  dd {
+        margin: 0 0 10px;
+        padding: 0 10px;
+      }
+
+       .Main_body  blockquote, .Main_body  q {
+        border-left: 2px solid #009688;
+        padding: 0 10px;
+        color: rgb(209, 209, 209);
+        quotes: none;
+        margin-left: 1em;
+      }
+
+       .Main_body  blockquote::before,  .Main_body  blockquote::after, .Main_body  q::before, .Main_body  q::after {
+        content: none;
+      }
+
+       .Main_body  h1,  .Main_body  h2,  .Main_body  h3,  .Main_body  h4,  .Main_body  h5,  .Main_body  h6 {
+        margin: 20px 0 10px;
+        padding: 0;
+        font-style: bold !important;
+        color: #00ff15 !important;
+        text-align: center !important;
+        margin: 1.5em 5px !important;
+        padding: 0.5em 1em !important;
+      }
+
+       .Main_body  h1 {
+        font-size: 24px !important;
+        border-bottom: 1px solid rgb(92, 40, 40) !important;
+      }
+
+       .Main_body  h2 {
+        font-size: 20px !important;
+        border-bottom: 1px solid #eee !important;
+      }
+
+       .Main_body  h3 {
+        font-size: 18px;
+      }
+
+       .Main_body  h4 {
+        font-size: 16px;
+      }
+
+
+       .Main_body  table {
+        padding: 0;
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-size: 1em;
+        font: inherit;
+        border: 0;
+        margin: 0 auto;
+      }
+
+       .Main_body  tbody {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+
+       .Main_body  table  .Main_body  tr {
+        border: 0;
+        border-top: 1px solid #CCC;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+       .Main_body  table  .Main_body  tr:nth-child(2n) {
+        background-color: #F8F8F8;
+      }
+
+       .Main_body  table  .Main_body  tr th,  .Main_body  table  .Main_body  tr  .Main_body  td {
+        font-size: 16px;
+        border: 1px solid #CCC;
+        margin: 0;
+        padding: 5px 10px;
+      }
+
+       .Main_body  table  .Main_body  tr  .Main_body  th {
+        font-weight: bold;
+        color: #eee;
+        border: 1px solid #009688;
+        background-color: #009688;
+      }
+      .Main_body  {
+        margin: 0 auto;
+        
+        width: 50%;
+        background: rgba(92, 92, 92, 0.8);
+
+        /* 模糊大小就是靠的blur这个函数中的数值大小 */
+        backdrop-filter: blur(16px);
+        color: white;
+      }

@@ -1,0 +1,26 @@
+#cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    background: #00fff2;
+    border-radius: 8px;
+    opacity: 0.38;
+    z-index: 10086;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+    transition-property: background, opacity, transform;
+}
+
+#cursor.hidden {
+    opacity: 0;
+}
+
+#cursor.hover {
+    opacity: 0.395;
+    transform: scale(2.5);
+}
+
+#cursor.active {
+    opacity: 0.15;
+    transform: scale(0.5);
+}

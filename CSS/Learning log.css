@@ -1,0 +1,102 @@
+.wrap_div {
+    width: 392px;
+    height: 208px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  #articlelist img{
+    width: 392px;
+    height: 208px;
+    border-radius: 10px;
+ 
+
+   background: rgb(255, 255, 255);
+  }
+  .mask {
+    position: absolute;
+    background: rgba(0, 0, 0, .86);
+    /* 模糊大小就是靠的blur这个函数中的数值大小 */
+    backdrop-filter: blur(6px);
+    color: #e71b47;
+    opacity: 0;
+    /*   top: 0; */
+    /*   right: 0; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:0;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.36s;
+  }
+  .mask h3 {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .mask p{
+    text-indent:8%;
+    width: 95%;
+text-align: center;
+  }
+  .mask span p{
+   margin-top: 20%;
+    text-indent:40%;
+  }
+  .wrap_div:hover .mask {
+    height: 100%;
+    opacity: 1;
+  }
+
+  .wrap_div:hover .article_title {
+  display:none;
+  }
+  .article_title{
+    width: 100%;
+    height: 59px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin:-15.8%  0 0 0%;
+
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow:hidden;
+    color:rgb(196, 182, 119);
+ 
+  }
+  .article_title h2{
+text-align: center;
+margin:3%  0 0 0%;
+}
+
+*{margin: 0 0 0 0;
+    text-decoration:none;
+    padding: 0 0 0 0 ;
+}
+#article_Container{
+  clear:both;
+    width:70%;
+ 
+    margin:0 auto;
+}
+#article_Container li{
+    display: inline-block;
+  margin:0 0 5% 3% ;
+}
+#copy {
+  text-align:center;
+
+  animation:  hue 5s linear infinite;
+  margin-top: 8%;
+}
+#copy h2{
+  color: linear-gradient(135deg,#ff75c38a,hsla(31, 100%, 64%, 0.12),rgba(255, 233, 63, 0.15),rgba(159, 255, 91, 0.15),rgba(112, 226, 255, 0.14),rgba(205, 147, 255, 0.2));
+  font-size: 52px;
+  z-index: 99999999;
+  
+}#copy span {
+  font-size: 26px;
+  color: rgba(49, 6, 31, 0.8);
+    z-index: 99999999;
+  
+}

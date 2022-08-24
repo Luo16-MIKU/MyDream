@@ -1,0 +1,128 @@
+.info-box-green, .info-box-red, .info-box-sky {
+  margin: 50px auto;
+  padding: 0;
+ 
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+ 
+.info-box-red h4 {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: -3px;
+}
+ 
+.info-box-red > .info-content > .text {
+ -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px; 
+}
+ 
+.info-box-green h4, .info-box-green > .info-content > .text {
+ background-color: #00AB83;
+}
+ 
+.info-box-red h4, .info-box-red > .info-content > .text {
+  background-color: rgba(34, 226, 226, 0.6);
+    /* 模糊大小就是靠的blur这个函数中的数值大小 */
+    backdrop-filter: blur(3px);
+}
+ 
+.info-box-sky h4, .info-box-sky > .info-content > .text {
+  background-color: #00A5C3;
+}
+ 
+.info-box-green h4, .info-box-red h4, .info-box-sky h4 {
+  padding: 10px;
+  font-size: 3em;
+  font-weight: 400;
+  color: rgba(255, 0, 0, 0.38);
+
+}
+ 
+.info-box-green > .info-content > .text, .info-box-red > .info-content > .text, .info-box-sky > .info-content > .text {
+  padding: 0px;
+  font-size: 1.6em;
+  line-height: 1.3em;
+  height: 0;
+  color: #FFF;
+  overflow: hidden;
+  -webkit-transition:  height 200ms ease;  
+     -moz-transition:  height 200ms ease;  
+       -o-transition:  height 200ms ease;  
+          transition:  height 200ms ease;
+}
+ 
+.info-box-green > .info-content > .text > p, .info-box-red > .info-content > .text > p, .info-box-sky > .info-content > .text > p {
+  padding: 20px 20px 60px;
+}
+ 
+.info-box-sky > .info-content > .text {
+  background-color: #FFF;
+  color: #444;
+  border-radius: 0;
+}
+  
+.info-box-green > .info-content > .text.open-green, .info-box-red > .info-content > .text.open-red, .info-box-sky > .info-content > .text.open-sky {
+  display: block;
+  height: auto;
+}
+ 
+.info-box-green > .info-content > span.close-green, .info-box-red > .info-content > span.close-red, .info-box-sky > .info-content > span.close-sky {
+  -webkit-transform:rotate(180deg);
+     -moz-transform:rotate(180deg);
+       -o-transform:rotate(180deg);
+      -ms-transform:rotate(180deg);
+}
+ 
+.info-box-green span, .info-box-red span, .info-box-sky span {
+  display: inline-block;
+  float: right;
+  position: relative;
+  bottom: 60px;
+  right: 10px;
+  margin: 0;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  cursor: pointer;
+  /*  Rotate '+' to 'X' */
+  -webkit-transition: all 600ms ease-in-out; 
+     -moz-transition: all 600ms ease-in-out; 
+       -o-transition: all 600ms ease-in-out; 
+      -ms-transition: all 600ms ease-in-out; 
+          transition: all 600ms ease-in-out;
+}
+ 
+.info-box-sky > .info-content > span.close-sky {
+  color: #444;
+}
+ 
+.info-box-red span {
+  position: relative;
+  bottom: 50px;
+  right: 10px;
+  color: rgba(255, 0, 0, 0.38);
+
+}
+
+
+.entypo-plus{
+background: rgba(0, 0, 0, 0);
+color: rgb(255, 255, 255);
+font-size: 80px;
+
+}
+.info-box-red {
+  width: 1000px;
+}
+li{
+  list-style: none;
+}
+.entypo-lifebuoy{
+ z-index: 9999999999999999999999999;
+
+}
+sign{
+  color: rgb(174, 0, 255);
+}
